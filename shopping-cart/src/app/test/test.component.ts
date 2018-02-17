@@ -8,8 +8,8 @@ import { Component, OnInit ,ViewEncapsulation,Input} from '@angular/core';
 })
 export class TestComponent implements OnInit {
  @Input()percent:number;
- @Input()name:any;
- @Input()size:any;
+ @Input()name:any[];
+ @Input()size:any[];
    quant:number[];
   amount:number=0;
   cgst:number=0;
