@@ -6,7 +6,7 @@ This is a simple component which will take an array of objects and another array
 To preview demo of shopping cart project, [Click here](https://stackblitz.com/edit/angular-shopping-cart?embed=1&file=app/app.component.ts&hideExplorer=1&hideNavigation=1&view=preview)
 
 ## Using the Angular project
-  Download the shopping cart folder and install the required packages and run the application. All the required components are imported to the project.
+  Download the shopping cart folder and install the required packages and run the application.
 ### Installing
 
 ```
@@ -20,7 +20,7 @@ To preview demo of shopping cart project, [Click here](https://stackblitz.com/ed
  ```
  
 ## Adding shopping cart component in your project
- Download the test.component to your angular project and include required components from angular.
+ Download the test.component to your angular project.
  
  ```
  <app-test [name]="data" [percent]="tax" [size]="size"></app-test>
@@ -49,13 +49,12 @@ I have used input decorator in order to take input from user.
 
 ```typescript
   @Input()percent:number;
-  @Input()name:any;
-  @Input()size:any;
+  @Input()name:any[];
+  @Input()size:any[];
   ```
   
-  percent,name and size are three variables who will take the value from user and send it to my component in order to organize the 
-  shopping cart and calculate the output.
-  percent variable is to take the tax percentage from the user.
+  percent,name and size are three variables which will take the value from user and send it to shopping cart component in order to organize the 
+  shopping cart and calculate the output. percent variable is to take the tax percentage from the user.
  
 ## JSON Data Format
 
