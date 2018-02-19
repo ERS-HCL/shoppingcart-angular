@@ -74,7 +74,7 @@ I have used input decorator in order to take input from user.
   - **title** : Name of the Product.
 
 ## @Output Decorator
-@Output has been used to provide user with required output. For this i have used EventEmitter.
+@Output has been used to provide user with required output. For this I have used EventEmitter.
 
 This method will give you all the billing information.
 
