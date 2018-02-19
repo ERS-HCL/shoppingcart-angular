@@ -1,9 +1,9 @@
 # shopping-cart-using-angular-and-bootstrap
 This is a simple component which will take an array of objects and another array of sizes from user and organize it as a shopping cart.
 
-<p align="center"><img src="https://github.com/srinuvas081/shoppingcart-angular/blob/master/images/shoppingcart.png"></p>
+<p align="center"><img src="https://github.com/srinuvas081/shoppingcart-angular/blob/master/images/shopping-cart.png"></p>
 
-To preview demo of shopping cart project, [Click here](https://stackblitz.com/edit/angular-shoppingcart?embed=1&file=app/app.component.ts&hideExplorer=1&hideNavigation=1&view=preview)
+To preview demo of shopping cart project, [Click here](https://stackblitz.com/edit/shoppingcart-angular?embed=1&file=app/app.component.ts&hideExplorer=1&hideNavigation=1&view=preview)
 
 ## Using the Angular project
   Download the shopping cart folder and install the required packages and run the application.
@@ -56,18 +56,18 @@ I have used input decorator in order to take input from user.
   percent,name and size are three variables which will take the value from user and send it to shopping cart component in order to organize the 
   shopping cart and calculate the output. percent variable is to take the tax percentage from the user.
  
-## JSON Data Format
+## Shoppingcart Interface
 
 ```
-      {   
-      "price":"---",
-      "img": "----",
-      "title":"---"  
-      },
-      -----
+    ShoppingCartInfo {
+       price:number;
+       img:string;
+       title:string;
+      }
+      
 ```
 
-  ### JSON Description
+  ## Interface Description
     
   - **price**:Price of the product,
   - **img**: Path of image,
